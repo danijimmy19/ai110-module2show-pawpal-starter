@@ -38,10 +38,21 @@ To improve modularity and keep the recurring-task easy to manage, I added JSON p
 - What constraints does your scheduler consider (for example: time, priority, preferences)?
 - How did you decide which constraints mattered most?
 
+Response: Following constraints were considered by the scheduler:
+    - task priority
+    - due date and due time
+    - completion status
+    - pet name when filtering
+    - recurrence rules for daily and weekly tasks
+
+I considered due time and priority as the most important constraints because a pet owner usually nneds to know both "what is urgent" and "what is due soon". That is why I implemented both chronological sorting and priority-based sorting.
+
 **b. Tradeoffs**
 
 - Describe one tradeoff your scheduler makes.
 - Why is that tradeoff reasonable for this scenario?
+
+Response: My current scheduler only checks for exact matching start times instead of full overlapping time blocks. I believe this trade-off is reasonable because it keeps the logic lightweight, easy to explain and test. 
 
 ---
 

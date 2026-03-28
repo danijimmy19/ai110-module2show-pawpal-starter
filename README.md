@@ -22,6 +22,24 @@ Your final app should:
 - Display the plan clearly (and ideally explain the reasoning)
 - Include tests for the most important scheduling behaviors
 
+
+## Smarter scheduling
+
+Pawpal+ includes multiple algorithmic features that operate across more than one pet:
+
+1. **Chronological sorting**: Orders all tasks by date and time, even when they belong to different pets.
+
+2. **Filtering across pets**: Can filter tasks by pet name, completion status, or priority.
+
+3. **Conflict detection**: Flats tasks that occurs at the exact same start time. This is intentionally lightweight as it warns user instead of blocking the schedule.
+
+4. **Recurring task regeneration**: Completing a daily or weekly task automatically creates the next occurrence.
+
+5. **Priority-first scheduling**: Orders high-priority tasks before medium or low priority tasks
+
+6. **Next available slot finder**: Suggests the next open time window for a new task in the current day.
+
+
 ## Getting started
 
 ### Setup

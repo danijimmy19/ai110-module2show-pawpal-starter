@@ -1,0 +1,141 @@
+{
+  "name": "Belem",
+  "email": "belem@example.com",
+  "preferences": {},
+  "pets": [
+    {
+      "name": "Mochi",
+      "species": "Dog",
+      "age": 3,
+      "notes": "",
+      "tasks": [
+        {
+          "description": "Fatty needs to lose some weight.",
+          "due_date": "2026-03-28",
+          "due_time": "07:13",
+          "frequency": "once",
+          "priority": "medium",
+          "completed": true,
+          "duration_minutes": 30,
+          "task_type": "exercise"
+        }
+      ]
+    },
+    {
+      "name": "Simba",
+      "species": "Cat",
+      "age": 5,
+      "notes": "Tuna",
+      "tasks": [
+        {
+          "description": "Medication",
+          "due_date": "2026-03-29",
+          "due_time": "07:15",
+          "frequency": "weekly",
+          "priority": "high",
+          "completed": true,
+          "duration_minutes": 15,
+          "task_type": "medical"
+        },
+        {
+          "description": "Medication",
+          "due_date": "2026-04-05",
+          "due_time": "07:15",
+          "frequency": "weekly",
+          "priority": "high",
+          "completed": false,
+          "duration_minutes": 15,
+          "task_type": "medical"
+        }
+      ]
+    },
+    {
+      "name": "Jackie",
+      "species": "Dog",
+      "age": 4,
+      "notes": "Puperoni",
+      "tasks": [
+        {
+          "description": "Exercise",
+          "due_date": "2026-03-29",
+          "due_time": "08:00",
+          "frequency": "daily",
+          "priority": "low",
+          "completed": true,
+          "duration_minutes": 30,
+          "task_type": "exercise"
+        },
+        {
+          "description": "Exercise",
+          "due_date": "2026-03-30",
+          "due_time": "08:00",
+          "frequency": "daily",
+          "priority": "low",
+          "completed": true,
+          "duration_minutes": 30,
+          "task_type": "exercise"
+        },
+        {
+          "description": "Medication",
+          "due_date": "2026-03-30",
+          "due_time": "07:22",
+          "frequency": "once",
+          "priority": "low",
+          "completed": false,
+          "duration_minutes": 30,
+          "task_type": "feeding"
+        },
+        {
+          "description": "Grooming",
+          "due_date": "2026-03-30",
+          "due_time": "07:23",
+          "frequency": "once",
+          "priority": "high",
+          "completed": false,
+          "duration_minutes": 30,
+          "task_type": "grooming"
+        },
+        {
+          "description": "Grooming",
+          "due_date": "2026-03-28",
+          "due_time": "08:00",
+          "frequency": "once",
+          "priority": "high",
+          "completed": false,
+          "duration_minutes": 30,
+          "task_type": "grooming"
+        },
+        {
+          "description": "Exercise",
+          "due_date": "2026-03-31",
+          "due_time": "08:00",
+          "frequency": "daily",
+          "priority": "low",
+          "completed": false,
+          "duration_minutes": 30,
+          "task_type": "exercise"
+        },
+        {
+          "description": "Grooming",
+          "due_date": "2026-03-28",
+          "due_time": "07:41",
+          "frequency": "once",
+          "priority": "high",
+          "completed": false,
+          "duration_minutes": 30,
+          "task_type": "grooming"
+        },
+        {
+          "description": "Feeding",
+          "due_date": "2026-03-28",
+          "due_time": "08:00",
+          "frequency": "daily",
+          "priority": "high",
+          "completed": false,
+          "duration_minutes": 30,
+          "task_type": "feeding"
+        }
+      ]
+    }
+  ]
+}
