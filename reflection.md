@@ -23,6 +23,12 @@ This approach keeps the data separate from the scheduling behavior.
 - Did your design change during implementation?
 - If yes, describe at least one change and why you made it.
 
+Response: I have changed the design of the system during implementation.
+
+I changed the approach to keep the scheduling logic or scheduling algorithms in the Scheduler. The Pet and Owner only stores data, and the Scheduler is responsible for organizing and evaluating the task.
+
+To improve modularity and keep the recurring-task easy to manage, I added JSON persistence methods to Owner and a helper function `next_occurrence()` to Task. 
+
 ---
 
 ## 2. Scheduling Logic and Tradeoffs
