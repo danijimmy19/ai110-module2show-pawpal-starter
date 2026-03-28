@@ -46,6 +46,16 @@
           "completed": false,
           "duration_minutes": 15,
           "task_type": "medical"
+        },
+        {
+          "description": "Morning Walk",
+          "due_date": "2026-03-28",
+          "due_time": "08:12",
+          "frequency": "daily",
+          "priority": "low",
+          "completed": false,
+          "duration_minutes": 30,
+          "task_type": "general"
         }
       ]
     },
@@ -81,7 +91,7 @@
           "due_time": "07:22",
           "frequency": "once",
           "priority": "low",
-          "completed": false,
+          "completed": true,
           "duration_minutes": 30,
           "task_type": "feeding"
         },
