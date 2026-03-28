@@ -18,7 +18,7 @@ PawPal+ is a pet care scheduler built with Python and Streamlit. It helps an own
 - **Advanced algorithmic capability:** `next_available_slot()` finds the next open planning window for a new task
 - **Data persistence:** `Owner.save_to_json()` and `Owner.load_from_json()` store pets and tasks in `data.json`
 - **Advanced scheduling logic:** priority-based sorting orders tasks by urgency before time
-- **Professional formatting:** emoji-based priority/status formatting improves the CLI and Streamlit output
+- **Optional formatting:** emoji-based priority/status formatting improves the CLI and Streamlit output
 
 ## System architecture
 
